@@ -1,0 +1,93 @@
+﻿body{
+
+font-family:Arial;
+margin:0;
+background:#f7f7f7;
+color:#1f2937;
+
+}
+
+header{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#111;
+color:white;
+
+}
+
+nav a{
+
+color:white;
+margin-left:15px;
+text-decoration:none;
+
+}
+
+.hero{
+
+padding:80px 24px;
+text-align:center;
+
+}
+
+.tools{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+
+}
+
+.tool{
+
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,.08);
+
+}
+
+.tool a,
+footer a,
+#afiliado a{
+color:#0f5ef7;
+text-decoration:none;
+}
+
+.tool-container{
+background:white;
+max-width:760px;
+margin:20px auto;
+padding:24px;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+
+input,button{
+font:inherit;
+padding:10px;
+margin:6px 6px 6px 0;
+}
+
+#afiliado{
+max-width:760px;
+margin:16px auto;
+padding:16px;
+background:#fff;
+border-radius:10px;
+text-align:center;
+}
+
+ins.adsbygoogle{
+margin:24px auto;
+max-width:980px;
+}
+
+footer{
+padding:24px;
+text-align:center;
+}
